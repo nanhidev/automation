@@ -23,11 +23,16 @@ package com.project.runner;
         }
     
     @Test(priority = 2)
+        public void runHomescreen() {
+            runCucumberFeature("src/test/resources/com/automation/features/HomeScreen.feature");
+        }
+    
+    @Test(priority = 3)
         public void runSheet1() {
             runCucumberFeature("src/test/resources/com/automation/features/Sheet1.feature");
         }
     
-    @Test(priority = 3)
+    @Test(priority = 4)
         public void runLoginscreen() {
             runCucumberFeature("src/test/resources/com/automation/features/LoginScreen.feature");
         }
