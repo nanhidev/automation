@@ -13,11 +13,16 @@ package com.project.runner;
     public class TestRunner extends AbstractTestNGCucumberTests {
         
         @Test(priority = 0)
+        public void runOperationsmanagementscreen() {
+            runCucumberFeature("src/test/resources/com/automation/features/OperationsManagementScreen.feature");
+        }
+    
+    @Test(priority = 1)
         public void runSheet1() {
             runCucumberFeature("src/test/resources/com/automation/features/Sheet1.feature");
         }
     
-    @Test(priority = 1)
+    @Test(priority = 2)
         public void runLoginscreen() {
             runCucumberFeature("src/test/resources/com/automation/features/LoginScreen.feature");
         }
