@@ -18,11 +18,16 @@ package com.project.runner;
         }
     
     @Test(priority = 1)
+        public void runOperationsscheduledscreen() {
+            runCucumberFeature("src/test/resources/com/automation/features/OperationsScheduledScreen.feature");
+        }
+    
+    @Test(priority = 2)
         public void runSheet1() {
             runCucumberFeature("src/test/resources/com/automation/features/Sheet1.feature");
         }
     
-    @Test(priority = 2)
+    @Test(priority = 3)
         public void runLoginscreen() {
             runCucumberFeature("src/test/resources/com/automation/features/LoginScreen.feature");
         }
