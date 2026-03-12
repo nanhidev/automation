@@ -260,3 +260,45 @@
 2026-02-12 12:50:48,924 [main] INFO com.project.driverfactory.DriverFactory - chrome driver initialized
 2026-02-12 12:50:49,589 [main] INFO com.project.hook.MyHooks - url loaded in browser http://tutorialsninja.com/demo/
 2026-02-12 12:50:49,670 [main] INFO com.project.hook.MyHooks - driver  quit
+2026-03-12 16:44:27,048 [main] INFO com.project.driverfactory.DriverFactory - chrome driver initialized
+2026-03-12 16:44:27,288 [main] INFO com.project.hook.MyHooks - scenario failed
+2026-03-12 16:44:27,361 [main] INFO com.project.hook.MyHooks - driver  quit
+2026-03-12 16:44:27,800 [main] INFO com.project.driverfactory.DriverFactory - chrome driver initialized
+2026-03-12 16:44:27,999 [main] INFO com.project.hook.MyHooks - scenario failed
+2026-03-12 16:44:28,068 [main] INFO com.project.hook.MyHooks - driver  quit
+2026-03-12 16:45:18,390 [main] INFO com.project.driverfactory.DriverFactory - chrome driver initialized
+2026-03-12 16:45:18,707 [main] INFO com.project.hook.MyHooks - scenario failed
+2026-03-12 16:45:18,781 [main] INFO com.project.hook.MyHooks - driver  quit
+2026-03-12 16:45:19,266 [main] INFO com.project.driverfactory.DriverFactory - chrome driver initialized
+2026-03-12 16:45:19,549 [main] INFO com.project.hook.MyHooks - scenario failed
+2026-03-12 16:45:19,619 [main] INFO com.project.hook.MyHooks - driver  quit
+2026-03-12 16:46:02,541 [main] INFO com.project.driverfactory.DriverFactory - chrome driver initialized
+2026-03-12 16:46:02,852 [main] INFO com.project.hook.MyHooks - scenario failed
+2026-03-12 16:46:02,936 [main] INFO com.project.hook.MyHooks - driver  quit
+2026-03-12 16:46:03,412 [main] INFO com.project.driverfactory.DriverFactory - chrome driver initialized
+2026-03-12 16:46:03,717 [main] INFO com.project.hook.MyHooks - scenario failed
+2026-03-12 16:46:03,785 [main] INFO com.project.hook.MyHooks - driver  quit
+2026-03-12 17:12:15,685 [main] INFO com.project.hook.MyHooks - Initializing Playwright for scenario: Verify that the user is redirected to the Home screen after a successful login
+2026-03-12 17:13:22,976 [main] INFO com.project.driverfactory.DriverFactory - Playwright page initialized
+2026-03-12 17:13:23,481 [main] INFO com.project.driverfactory.DriverFactory - Playwright browser closed
+2026-03-12 17:13:23,482 [main] INFO com.project.hook.MyHooks - Playwright quit
+2026-03-12 17:13:23,514 [main] INFO com.project.hook.MyHooks - Initializing Playwright for scenario: Verify that the user can logout successfully
+2026-03-12 17:13:24,267 [main] INFO com.project.driverfactory.DriverFactory - Playwright page initialized
+2026-03-12 17:13:24,546 [main] INFO com.project.driverfactory.DriverFactory - Playwright browser closed
+2026-03-12 17:13:24,547 [main] INFO com.project.hook.MyHooks - Playwright quit
+2026-03-12 17:13:41,053 [main] INFO com.project.hook.MyHooks - Initializing Selenium for scenario: Verify that the user is redirected to the Home screen after a successful login
+2026-03-12 17:13:42,353 [main] INFO com.project.driverfactory.DriverFactory - chrome driver initialized
+2026-03-12 17:13:42,787 [main] INFO com.project.hook.MyHooks - Scenario failed, screenshot captured
+2026-03-12 17:13:42,871 [main] INFO com.project.hook.MyHooks - Selenium driver quit
+2026-03-12 17:13:42,898 [main] INFO com.project.hook.MyHooks - Initializing Selenium for scenario: Verify that the user can logout successfully
+2026-03-12 17:13:43,547 [main] INFO com.project.driverfactory.DriverFactory - chrome driver initialized
+2026-03-12 17:13:43,902 [main] INFO com.project.hook.MyHooks - Scenario failed, screenshot captured
+2026-03-12 17:13:43,973 [main] INFO com.project.hook.MyHooks - Selenium driver quit
+2026-03-12 17:15:52,439 [main] INFO com.project.hook.MyHooks - Initializing Selenium for scenario: Verify that the user is redirected to the Home screen after a successful login
+2026-03-12 17:15:53,443 [main] INFO com.project.driverfactory.DriverFactory - chrome driver initialized
+2026-03-12 17:15:53,761 [main] INFO com.project.hook.MyHooks - Scenario failed, screenshot captured
+2026-03-12 17:15:53,833 [main] INFO com.project.hook.MyHooks - Selenium driver quit
+2026-03-12 17:15:53,850 [main] INFO com.project.hook.MyHooks - Initializing Selenium for scenario: Verify that the user can logout successfully
+2026-03-12 17:15:54,327 [main] INFO com.project.driverfactory.DriverFactory - chrome driver initialized
+2026-03-12 17:15:54,594 [main] INFO com.project.hook.MyHooks - Scenario failed, screenshot captured
+2026-03-12 17:15:54,662 [main] INFO com.project.hook.MyHooks - Selenium driver quit
