@@ -1,0 +1,25 @@
+{
+  "name": "playwright-cucumber-framework",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:report": "cucumber-js --format json:reports/report.json && node report.js"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.0.0",
+    "playwright": "^1.42.0"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^6.0.0"
+  },
+  "cucumber": {
+    "require": [
+      "steps/*.js",
+      "hooks/*.js"
+    ],
+    "format": [
+      "progress",
+      "json:reports/report.json"
+    ]
+  }
+}
